@@ -9,3 +9,13 @@ riderModule.iml
 /FTBHungary.Api/Logs/Diagnostic
 /FTBHungary.Api/Logs/Security
 /FTBHungary.Api/Logs
+/FTBHungary.Api/bin
+/FTBHungary.Api/obj
+/FTBHungary.Common/obj
+/FTBHungary.Common/bin
+/FTBHungary.Data/obj
+/FTBHungary.Data/bin
+/FTBHungary.DataAccess/obj
+/FTBHungary.DataAccess/bin
+/FTBHungary.Logic/obj
+/FTBHungary.Logic/bin
