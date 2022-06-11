@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FTBHungary.Common\FTBHungary.Common.csproj" />
+      <ProjectReference Include="..\FTBHungary.DataAccess\FTBHungary.DataAccess.csproj" />
+      <ProjectReference Include="..\FTBHungary.Data\FTBHungary.Data.csproj" />
+      <ProjectReference Include="..\FTBHungary.PlayerDataAccess\FTBHungary.PlayerDataAccess.csproj" />
+    </ItemGroup>
+
+</Project>

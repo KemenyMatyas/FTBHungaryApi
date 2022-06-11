@@ -72,6 +72,65 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "FTBHungary.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FTBHungary.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FTBHungary.Common.dll": {}
+        }
+      },
+      "FTBHungary.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FTBHungary.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FTBHungary.Data.dll": {}
+        }
+      },
+      "FTBHungary.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FTBHungary.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FTBHungary.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FTBHungary.DataAccess.dll": {}
+        }
+      },
+      "FTBHungary.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FTBHungary.Common": "1.0.0",
+          "FTBHungary.Data": "1.0.0",
+          "FTBHungary.DataAccess": "1.0.0",
+          "FTBHungary.PlayerDataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FTBHungary.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FTBHungary.Logic.dll": {}
+        }
+      },
+      "FTBHungary.PlayerDataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FTBHungary.PlayerDataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FTBHungary.PlayerDataAccess.dll": {}
+        }
       }
     }
   },
@@ -200,10 +259,37 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "FTBHungary.Common/1.0.0": {
+      "type": "project",
+      "path": "../FTBHungary.Common/FTBHungary.Common.csproj",
+      "msbuildProject": "../FTBHungary.Common/FTBHungary.Common.csproj"
+    },
+    "FTBHungary.Data/1.0.0": {
+      "type": "project",
+      "path": "../FTBHungary.Data/FTBHungary.Data.csproj",
+      "msbuildProject": "../FTBHungary.Data/FTBHungary.Data.csproj"
+    },
+    "FTBHungary.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../FTBHungary.DataAccess/FTBHungary.DataAccess.csproj",
+      "msbuildProject": "../FTBHungary.DataAccess/FTBHungary.DataAccess.csproj"
+    },
+    "FTBHungary.Logic/1.0.0": {
+      "type": "project",
+      "path": "../FTBHungary.Logic/FTBHungary.Logic.csproj",
+      "msbuildProject": "../FTBHungary.Logic/FTBHungary.Logic.csproj"
+    },
+    "FTBHungary.PlayerDataAccess/1.0.0": {
+      "type": "project",
+      "path": "../FTBHungary.PlayerDataAccess/FTBHungary.PlayerDataAccess.csproj",
+      "msbuildProject": "../FTBHungary.PlayerDataAccess/FTBHungary.PlayerDataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FTBHungary.Data >= 1.0.0",
+      "FTBHungary.Logic >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -233,7 +319,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Data\\FTBHungary.Data.csproj": {
+              "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Data\\FTBHungary.Data.csproj"
+            },
+            "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Logic\\FTBHungary.Logic.csproj": {
+              "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Logic\\FTBHungary.Logic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

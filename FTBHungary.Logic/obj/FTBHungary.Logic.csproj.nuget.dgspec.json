@@ -1,0 +1,295 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Logic\\FTBHungary.Logic.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Common\\FTBHungary.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Common\\FTBHungary.Common.csproj",
+        "projectName": "FTBHungary.Common",
+        "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Common\\FTBHungary.Common.csproj",
+        "packagesPath": "C:\\Users\\Matyi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Matyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.DataAccess\\FTBHungary.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.DataAccess\\FTBHungary.DataAccess.csproj",
+        "projectName": "FTBHungary.DataAccess",
+        "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.DataAccess\\FTBHungary.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Matyi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Matyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Data\\FTBHungary.Data.csproj": {
+                "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Data\\FTBHungary.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Data\\FTBHungary.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Data\\FTBHungary.Data.csproj",
+        "projectName": "FTBHungary.Data",
+        "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Data\\FTBHungary.Data.csproj",
+        "packagesPath": "C:\\Users\\Matyi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Matyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Logic\\FTBHungary.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Logic\\FTBHungary.Logic.csproj",
+        "projectName": "FTBHungary.Logic",
+        "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Logic\\FTBHungary.Logic.csproj",
+        "packagesPath": "C:\\Users\\Matyi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Matyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Common\\FTBHungary.Common.csproj": {
+                "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Common\\FTBHungary.Common.csproj"
+              },
+              "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.DataAccess\\FTBHungary.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.DataAccess\\FTBHungary.DataAccess.csproj"
+              },
+              "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Data\\FTBHungary.Data.csproj": {
+                "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Data\\FTBHungary.Data.csproj"
+              },
+              "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.PlayerDataAccess\\FTBHungary.PlayerDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.PlayerDataAccess\\FTBHungary.PlayerDataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.PlayerDataAccess\\FTBHungary.PlayerDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.PlayerDataAccess\\FTBHungary.PlayerDataAccess.csproj",
+        "projectName": "FTBHungary.PlayerDataAccess",
+        "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.PlayerDataAccess\\FTBHungary.PlayerDataAccess.csproj",
+        "packagesPath": "C:\\Users\\Matyi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.PlayerDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Matyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

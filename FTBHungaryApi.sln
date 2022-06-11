@@ -2,6 +2,16 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTBHungary.Api", "FTBHungary.Api\FTBHungary.Api.csproj", "{6B0C648B-2385-49ED-9CAC-4DDDC94129F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTBHungary.Data", "FTBHungary.Data\FTBHungary.Data.csproj", "{A202806D-8BF6-4E81-B338-596E43895C2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTBHungary.Logic", "FTBHungary.Logic\FTBHungary.Logic.csproj", "{A9096223-B222-4094-9685-3D072DC8C9FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTBHungary.PlayerDataAccess", "FTBHungary.PlayerDataAccess\FTBHungary.PlayerDataAccess.csproj", "{AB58A01E-BC57-4C50-984E-6A30BE0733DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTBHungary.DataAccess", "FTBHungary.DataAccess\FTBHungary.DataAccess.csproj", "{84934122-D824-42AD-A1D8-49C3676D3574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTBHungary.Common", "FTBHungary.Common\FTBHungary.Common.csproj", "{14302BB2-820E-48DD-928D-04486E65201C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +22,25 @@ Global
 		{6B0C648B-2385-49ED-9CAC-4DDDC94129F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B0C648B-2385-49ED-9CAC-4DDDC94129F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B0C648B-2385-49ED-9CAC-4DDDC94129F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A202806D-8BF6-4E81-B338-596E43895C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A202806D-8BF6-4E81-B338-596E43895C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A202806D-8BF6-4E81-B338-596E43895C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A202806D-8BF6-4E81-B338-596E43895C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9096223-B222-4094-9685-3D072DC8C9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9096223-B222-4094-9685-3D072DC8C9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9096223-B222-4094-9685-3D072DC8C9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9096223-B222-4094-9685-3D072DC8C9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB58A01E-BC57-4C50-984E-6A30BE0733DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB58A01E-BC57-4C50-984E-6A30BE0733DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB58A01E-BC57-4C50-984E-6A30BE0733DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB58A01E-BC57-4C50-984E-6A30BE0733DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84934122-D824-42AD-A1D8-49C3676D3574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84934122-D824-42AD-A1D8-49C3676D3574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84934122-D824-42AD-A1D8-49C3676D3574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84934122-D824-42AD-A1D8-49C3676D3574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14302BB2-820E-48DD-928D-04486E65201C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14302BB2-820E-48DD-928D-04486E65201C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14302BB2-820E-48DD-928D-04486E65201C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14302BB2-820E-48DD-928D-04486E65201C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
