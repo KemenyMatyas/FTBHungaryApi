@@ -1,0 +1,312 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FTBHungary.Logic/1.0.0": {
+        "dependencies": {
+          "FTBHungary.Common": "1.0.0",
+          "FTBHungary.Data": "1.0.0",
+          "FTBHungary.DataAccess": "1.0.0",
+          "FTBHungary.PlayerDataAccess": "1.0.0"
+        },
+        "runtime": {
+          "FTBHungary.Logic.dll": {}
+        }
+      },
+      "AutoMapper/11.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.1.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.Configuration/7.0.0-preview.4.22229.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.4.22229.4",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.4.22229.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.22904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/7.0.0-preview.4.22229.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.4.22229.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.22904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0-preview.4.22229.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/3.0.0": {
+        "dependencies": {
+          "System.Text.Json": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.46305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0-preview.4.22229.4": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.22904"
+          }
+        }
+      },
+      "Serilog/2.11.1-dev-01397": {
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.11.1.0"
+          }
+        }
+      },
+      "Serilog.Settings.Configuration/3.3.1-dev-00337": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "2.0.0",
+          "Microsoft.Extensions.DependencyModel": "3.0.0",
+          "Serilog": "2.11.1-dev-01397"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Settings.Configuration.dll": {
+            "assemblyVersion": "3.3.1.0",
+            "fileVersion": "3.3.1.0"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Json/4.6.0": {},
+      "FTBHungary.Common/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "FTBHungary.Data": "1.0.0",
+          "Microsoft.Extensions.Configuration": "7.0.0-preview.4.22229.4",
+          "Serilog": "2.11.1-dev-01397",
+          "Serilog.Settings.Configuration": "3.3.1-dev-00337"
+        },
+        "runtime": {
+          "FTBHungary.Common.dll": {}
+        }
+      },
+      "FTBHungary.Data/1.0.0": {
+        "runtime": {
+          "FTBHungary.Data.dll": {}
+        }
+      },
+      "FTBHungary.DataAccess/1.0.0": {
+        "dependencies": {
+          "FTBHungary.Data": "1.0.0"
+        },
+        "runtime": {
+          "FTBHungary.DataAccess.dll": {}
+        }
+      },
+      "FTBHungary.PlayerDataAccess/1.0.0": {
+        "runtime": {
+          "FTBHungary.PlayerDataAccess.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/6.0.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.322.12401"
+          }
+        }
+      },
+      "Microsoft.Extensions.Features/6.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Features.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.322.12401"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/6.0.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.322.12401"
+          }
+        }
+      },
+      "System.IO.Pipelines/6.0.0.0": {
+        "runtime": {
+          "System.IO.Pipelines.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.6406"
+          }
+        }
+      },
+      "Microsoft.Net.Http.Headers/6.0.0.0": {
+        "runtime": {
+          "Microsoft.Net.Http.Headers.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.322.12401"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FTBHungary.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/11.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WIadGC1pIwbnyTubvI577p3F++Bsj9q2Q3OaAc1I0QS+JhupN1xkdrPBhI9bPIeg63zM81tZplUNYkqU1HE5jQ==",
+      "path": "automapper/11.0.1",
+      "hashPath": "automapper.11.0.1.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/7.0.0-preview.4.22229.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JrgXzLJEZmbqRR/kr3D7FrNuK59u13uOBGIETxV5cbjs7UdJ+gt93I39J5Nw9Xh9tWkx4RzirTzfzvAzH3VVxg==",
+      "path": "microsoft.extensions.configuration/7.0.0-preview.4.22229.4",
+      "hashPath": "microsoft.extensions.configuration.7.0.0-preview.4.22229.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/7.0.0-preview.4.22229.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OgoAs1aUZcrdZQDNmtIE9EwO1LuYIy8TXajksNkjCKQz0aqmKpVPXtm3sPFNYpAN2JNdPTYNIcDCz3syx5PdZQ==",
+      "path": "microsoft.extensions.configuration.abstractions/7.0.0-preview.4.22229.4",
+      "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0-preview.4.22229.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IznHHzGUtrdpuQqIUdmzF6TYPcsYHONhHh3o9dGp39sX/9Zfmt476UnhvU0UhXgJnXXAikt/MpN6AuSLCCMdEQ==",
+      "path": "microsoft.extensions.configuration.binder/2.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Iaectmzg9Dc4ZbKX/FurrRjgO/I8rTumL5UU+Uube6vZuGetcnXoIgTA94RthFWePhdMVm8MMhVFJZdbzMsdyQ==",
+      "path": "microsoft.extensions.dependencymodel/3.0.0",
+      "hashPath": "microsoft.extensions.dependencymodel.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/7.0.0-preview.4.22229.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yt3HdfU7ktTtSFsEQmIqYaLIGVPnpnCEEbcyD0mXmhtYIP0l9r6gvUmHLDtspsHKF2XrWjkwivFpHHML6fC37w==",
+      "path": "microsoft.extensions.primitives/7.0.0-preview.4.22229.4",
+      "hashPath": "microsoft.extensions.primitives.7.0.0-preview.4.22229.4.nupkg.sha512"
+    },
+    "Serilog/2.11.1-dev-01397": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ClClAbuYkzcyMXS9JIwFoLyCttwjlfDNLO5tBbv4ASwPnbBBxQ7NTjFVHPSluJ8hQJkB8PJuaItYy/wAFvBkwg==",
+      "path": "serilog/2.11.1-dev-01397",
+      "hashPath": "serilog.2.11.1-dev-01397.nupkg.sha512"
+    },
+    "Serilog.Settings.Configuration/3.3.1-dev-00337": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O1pTV1LGkvo6NKZloJ0XX/DV6sJ9glMhirVKi1x4tNyhQyCk1NXEcMZV3NLmHnIsZQcJQ3pQOg1wzsQRcViV3w==",
+      "path": "serilog.settings.configuration/3.3.1-dev-00337",
+      "hashPath": "serilog.settings.configuration.3.3.1-dev-00337.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4F8Xe+JIkVoDJ8hDAZ7HqLkjctN/6WItJIzQaifBwClC7wmoLSda/Sv2i6i1kycqDb3hWF4JCVbpAweyOKHEUA==",
+      "path": "system.text.json/4.6.0",
+      "hashPath": "system.text.json.4.6.0.nupkg.sha512"
+    },
+    "FTBHungary.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FTBHungary.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FTBHungary.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FTBHungary.PlayerDataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Features/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Http.Features/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IO.Pipelines/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Net.Http.Headers/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -47,6 +47,30 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Serilog.Expressions": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.2-dev-00890, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.1-dev-00947, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -97,7 +121,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Data\\FTBHungary.Data.csproj": {
+                "projectPath": "C:\\Users\\Matyi\\Desktop\\FTBHungary\\FTBHungaryApi\\FTBHungary.Data\\FTBHungary.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -109,6 +137,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0-preview.4.22229.4, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.11.1-dev-01397, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.3.1-dev-00337, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

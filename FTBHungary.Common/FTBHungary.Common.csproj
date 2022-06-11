@@ -6,4 +6,21 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="11.0.1" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0-preview.4.22229.4" />
+      <PackageReference Include="Serilog" Version="2.11.1-dev-01397" />
+      <PackageReference Include="Serilog.Settings.Configuration" Version="3.3.1-dev-00337" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FTBHungary.Data\FTBHungary.Data.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
+        <HintPath>..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.3\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

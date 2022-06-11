@@ -1,0 +1,11 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/.idea
+/.vs
+/FTBHungary.Api/Logs/Activity
+/FTBHungary.Api/Logs/Diagnostic
+/FTBHungary.Api/Logs/Security
+/FTBHungary.Api/Logs
