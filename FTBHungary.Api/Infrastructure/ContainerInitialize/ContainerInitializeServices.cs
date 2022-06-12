@@ -5,6 +5,7 @@ using Common.Mappers;
 using FTBHungary.Data.Models;
 using FTBHungary.Logic.IServices;
 using FTBHungary.Logic.Services;
+using LogicLayer.Services;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
 
@@ -21,6 +22,7 @@ public static class  ContainerInitializeServices
         services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         services.AddScoped<IAppContext, AppContext>();
         services.AddScoped<IUserService, UserService>();
+        services.AddScoped<AuthService>();
     }
 
 }

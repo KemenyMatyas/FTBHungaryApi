@@ -4,5 +4,6 @@ using Data.Dtos;
 
 public interface IUserService
 {
-    public Task<UserDto> Register(UserDto userDto);
+    public Task Register(RegisterUserDto userDto);
+    public Task<string> Login(LoginUserDto userDto);
 }

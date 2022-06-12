@@ -3,6 +3,7 @@ using System;
 using FTBHungary.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FTBHungary.DataAccess.Migrations
 {
     [DbContext(typeof(FTBHungaryContext))]
-    partial class FTBHungaryContextModelSnapshot : ModelSnapshot
+    [Migration("20220612193742_backtosimplerole")]
+    partial class backtosimplerole
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
