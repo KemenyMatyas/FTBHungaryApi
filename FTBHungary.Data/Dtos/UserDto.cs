@@ -1,5 +1,7 @@
 ﻿namespace FTBHungary.Data.Dtos;
 
+using Models;
+
 public class UserDto
 {
     public int Id { get; set; }

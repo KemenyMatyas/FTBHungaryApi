@@ -2,19 +2,22 @@
 
 using Data.Models;
 using Microsoft.EntityFrameworkCore;
+using ModelMappings;
 
 public class FTBHungaryContext : DbContext
 {
     public FTBHungaryContext(DbContextOptions<FTBHungaryContext> options): base(options) { }
     
     public DbSet<User> Users { get; set; }
+    public DbSet<Role> Roles { get; set; }
+    public DbSet<UserRole> UserRole { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
-        builder.Entity<User>(entity =>
-        {
-            entity.HasKey(k => k.Id);
-        });
+        base.OnModelCreating(builder);
+        builder.ApplyConfiguration(new UserMap());
+        builder.ApplyConfiguration(new RoleMap());
+        builder.ApplyConfiguration(new UserRoleMap());
     }
 
 }

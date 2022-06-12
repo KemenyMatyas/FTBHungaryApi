@@ -17,7 +17,11 @@ public class UserService : IUserService
     
     public async Task<UserDto> Register(UserDto userDto)
     {
-        _dbContext.Users.Add(new User() {Password = "test", Username = "test"});
+        var role = new Role() {Name = "Admin"};
+        var user = new User() {Password = "test2", UserName = "test2", FullName = "asd2"};
+        var userRole = new UserRole() {Role = role, User = user};
+        await _dbContext.Users.AddAsync(user);
+        await _dbContext.UserRole.AddAsync(userRole);
         await _dbContext.SaveChangesAsync();
         
         return new UserDto() {Id = 1, Password = "asd", Username = "asd"};
